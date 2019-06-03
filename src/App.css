@@ -1,24 +1,45 @@
 .App {
   text-align: center;
+  font-size: x-large;
+  font-family: monospace;
+  /* background: url('./backgroundimage.JPG'); */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 1000px;
+  margin: 20px; */
+  
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
-
+h1{
+  /* font-size:xx-large; */
+  font-family: monospace;
+}
 .App-header {
-  background-color: #222;
+  
   height: 150px;
   padding: 20px;
-  color: white;
+  color: black;
+ 
+  font-size: x-large;
+  font-family: monospace;
 }
 
 .App-intro {
-  font-size: large;
+  text-align:center;
+  font-size: x-large;
+  font-family: monospace;
+  
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+img {
+  border-radius: 8px;
+  float: center;
+  width: 90%;
+  opacity: .5;
 }
