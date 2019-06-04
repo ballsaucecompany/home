@@ -1,17 +1,51 @@
+.wrap{
+  width: 100%;
+}
+/* .image {
+  background-image: url('./backgroundimage.JPG');
+  position: relative;
+  height: 100vh;
+} */
+/* .image:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0);
+} */
 .App {
   text-align: center;
   font-size: x-large;
   font-family: monospace;
-  /* background: url('./backgroundimage.JPG'); */
-  /* background-position: center;
+}
+.image {
+  text-align: center;
+  font-size: x-large;
+  font-family: monospace;
+  background: url('./backgroundimage.JPG');
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   min-height: 1000px;
-  margin: 20px; */
+  margin: 20px;
+  
   
 }
-
+.Link {
+  text-decoration: none;
+  font-family: monospace;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black
+}
+.text {
+  font-family: monospace;
+  color: black;
+  position: relative;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
