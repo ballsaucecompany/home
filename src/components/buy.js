@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+// import config from './formConfig'
+// import Form from './shippinginfo'
 import AddressForm from './AddressForm'
 
 const Buy = () =>{
 	return(
 <div className='App-header'>
+	{/* <Form config={config} /> */}
 	<AddressForm />
 	<p>Please allow one week to ship</p>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
