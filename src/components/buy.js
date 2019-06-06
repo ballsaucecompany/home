@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 // import config from './formConfig'
-// import Form from './shippinginfo'
+import Form from './shippinginfo'
 import AddressForm from './AddressForm'
 
 const Buy = () =>{
 	return(
 <div className='App-header'>
-	{/* <Form config={config} /> */}
-	<AddressForm />
-	<p>Please allow one week to ship</p>
+<div className='App'>
+	<Form />	
+	<p>We will contact you with tracking number.</p>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick"/>
 <table>
@@ -21,7 +21,8 @@ const Buy = () =>{
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
 </form>
-<p>Any questions about ordering or pricing contact <a href='mailto:info@ballsaucecompany.com'>info@ballsaucecompany.com</a></p>
+<p>Any questions contact <a href='mailto:info@ballsaucecompany.com'>info@ballsaucecompany.com</a></p>
+</div>
 </div>
 	);
 }

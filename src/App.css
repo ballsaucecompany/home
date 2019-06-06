@@ -27,7 +27,7 @@
   background: url('./backgroundimage.JPG');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   position: relative;
   min-height: 1000px;
   margin: 20px;
