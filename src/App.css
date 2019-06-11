@@ -73,7 +73,8 @@ h1{
 
 img {
   border-radius: 8px;
-  float: center;
-  width: 90%;
-  opacity: .5;
+  position: center;
+  width: 50%;
+  height:auto;
+  /* opacity: .5; */
 }

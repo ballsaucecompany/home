@@ -176,7 +176,7 @@ class Form extends Component {
      </fieldset> */}
 
      <button className="button-success pure-button button-xlarge">
-       <i className="fa fa-paper-plane"></i>&nbsp;Send</button>
+       <i className="fa fa-paper-plane"></i>&nbsp;Send Shipping Info</button>
    </div>
 
    
